@@ -41,10 +41,10 @@ export default function Drag() {
                 width: isHoveringName ? 200 : 100,
                 height: isHoveringName ? 200 : 100,
                 backgroundColor: isHoveringName ? 'transparent' : 'white',
-                backgroundImage: isHoveringName ? `url('/me.jpg')` : 'none',
+                backgroundImage: isHoveringName ? `url('/me2.jpeg')` : 'none',
                 mixBlendMode: isHoveringName ? 'unset' : 'difference',
                 backgroundSize: 'cover',
-                backgroundPosition: 'center',
+                backgroundPosition: 'top center',
             }}
         />
     );
